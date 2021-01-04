@@ -1,24 +1,24 @@
 # These code use to demo basics about Junit 4 and Mocking that use Mockito 1.9
 
 ## I. Junit
-###1. Demo config and declare Junit  
+### 1. Demo config and declare Junit  
 **Example**: *pom.xml*  
 **Example extend**: *MathUtility.java*  
 **Example without extend**: *MathUtilityWithoutExtendTest.java*  
-###2. Demo Junit lifecycle  
+### 2. Demo Junit lifecycle  
 **Example**: *JunitLifecycle.java*
-###3. Demo Assert and Ignore  
+### 3. Demo Assert and Ignore  
 **Example**: *AssertDemo.java*  
 **Example**: *CustomerCategorizationTest.java*  
-###4. Demo Parameterized annotation which help run test case with data test  
+### 4. Demo Parameterized annotation which help run test case with data test  
 **Example**: *ParameterizedDemo.java*
-###5. Demo test suites  
+### 5. Demo test suites  
 **Example**: *LoginTests.java*  
-###6. Demo Rule annotation  
+### 6. Demo Rule annotation  
 **Example**: *RuleDemo.java*  
 **Example**: *RuleDemo2.java*  
-###7. Run test with Coverage  
-###8. Run test with maven command  
+### 7. Run test with Coverage  
+### 8. Run test with maven command  
     
             mvn compile test  
             mvn clean test
@@ -39,7 +39,7 @@
 - Verify argument matching  
 - Verify timeout  
 **Example**: *VerifyDemo.java*  
-#References  
+# References  
 https://www.vogella.com/tutorials/JUnit/article.html  
 https://www.vogella.com/tutorials/Mockito/article.html  
 https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html  
